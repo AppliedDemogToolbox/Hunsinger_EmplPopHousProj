@@ -66,7 +66,7 @@ VAC_cons<-c(VAC_base,.15,.15,.15,.15,.15,.15)
 ##SURVIVAL PARAMETERS
 ##
 ##YEAR 2000 US LIFE TABLE lx CURVES
-Survival<-read.table(file="https://raw.githubusercontent.com/AppliedDemogToolbox/Hunsinger_EmplPopHousProj/Inputs/lx2000_US_NCHS.csv",header=TRUE,sep=",")
+Survival<-read.table(file="https://raw.githubusercontent.com/AppliedDemogToolbox/Hunsinger_EmplPopHousProj/master/Inputs/lx2000_US_NCHS.csv",header=TRUE,sep=",")
 lxF<-Survival$F_2000
 lxM<-Survival$M_2000
 ##"BA" IS THE BRASS RELATIONAL LOGIT MODEL ALPHA. IT IS CALIBRATED FOR THE JUMP-OFF PERIOD AND SET TO FOLLOW A PATH OF INCREASE
@@ -79,7 +79,7 @@ BA_consM<-.03
 ##FERTILITY PARAMETERS
 ##
 ##YEAR 2005 US FERTILITY RATES, SUMMED TO 1
-Fertility<-read.table(file="https://raw.githubusercontent.com/AppliedDemogToolbox/Hunsinger_EmplPopHousProj/Inputs/Fx2005_US_NCHS.csv",header=TRUE,sep=",")
+Fertility<-read.table(file="https://raw.githubusercontent.com/AppliedDemogToolbox/Hunsinger_EmplPopHousProj/master/Inputs/Fx2005_US_NCHS.csv",header=TRUE,sep=",")
 PropFx<-c(Fertility$PropFx)
 ##FRACTION FEMALE AT BIRTH
 ffab<-.4886
@@ -90,7 +90,7 @@ TFR_cons<-c(TFR_base,2.3,2.3,2.3,2.3,2.3,2.3)
 ##MIGRATION PARAMETERS
 ##
 ##MIGRATION PROFILES, SUMMED TO 1 FOR IN AND OUT
-Migration<-read.table(file="https://raw.githubusercontent.com/AppliedDemogToolbox/Hunsinger_EmplPopHousProj/Inputs/MigProf2000to2010.csv",header=TRUE,sep=",")
+Migration<-read.table(file="https://raw.githubusercontent.com/AppliedDemogToolbox/Hunsinger_EmplPopHousProj/master/Inputs/MigProf2000to2010.csv",header=TRUE,sep=",")
 PropInM<-c(Migration$MIn)
 PropInF<-c(Migration$FIn)
 PropOutM<-c(Migration$MOut)
@@ -101,7 +101,7 @@ OutRate<-140000
 ##BASE POPULATION
 ##
 ##POPULATION ESTIMATES BY AGE AND SEX
-K05<-read.table(file="https://raw.githubusercontent.com/AppliedDemogToolbox/Hunsinger_EmplPopHousProj/Inputs/AgeSex2005.csv",header=TRUE,sep=",")
+K05<-read.table(file="https://raw.githubusercontent.com/AppliedDemogToolbox/Hunsinger_EmplPopHousProj/master/Inputs/AgeSex2005.csv",header=TRUE,sep=",")
 KF05<-K05$F_2005
 KM05<-K05$M_2005
 
