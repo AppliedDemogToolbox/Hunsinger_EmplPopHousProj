@@ -6,7 +6,7 @@
 ##http://www.demog.berkeley.edu/~eddieh/
 ##edyhsgr@gmail.com
 ##
-##THIS IS BASED ON R CODE FOR A BASIC POPULATION PROJECTION: http://www.demog.berkeley.edu/~eddieh/AppliedDemographyToolbox/Pages/BasicProjection.html
+##THIS IS BASED ON R CODE FOR A BASIC POPULATION PROJECTION: https://applieddemogtoolbox.github.io/Toolbox/#BasicProjection
 ##IF YOU WOULD LIKE TO USE, SHARE OR REPRODUCE ANY INFORMATION OR IDEAS FROM THIS WORK, BE SURE TO CITE THE SOURCE
 ##
 ##THE INPUTS USED HERE ARE NOT OFFICIAL OR CAREFULLY DEVELOPED OR USEFUL FOR ANY PARTICULAR AREA, AND SHOULD ONLY BE USED FOR EXAMPLE
