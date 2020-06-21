@@ -2,7 +2,7 @@
 ##############################################################################################################################
 ##R CODE FOR AN EMPLOYMENT-BASED POPULATION AND HOUSING PROJECTION
 ##
-##EDDIE HUNSINGER (AFFILIATION: ALASKA DEPARTMENT OF LABOR AND WORKFORCE DEVELOPMENT), MARCH 2014 (UPDATED DECEMBER 2018)
+##EDDIE HUNSINGER (AFFILIATION: ALASKA DEPARTMENT OF LABOR AND WORKFORCE DEVELOPMENT), MARCH 2014 (UPDATED JUNE 2020)
 ##http://www.demog.berkeley.edu/~eddieh/
 ##edyhsgr@gmail.com
 ##
